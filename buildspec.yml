@@ -11,4 +11,4 @@ phases:
     commands:
       - aws s3 rm s3://portfolio.centstudio.xyz/ --recursive
       - aws s3 sync ./dist s3://portfolio.centstudio.xyz/
-      - aws cloudfront create-invalidation --distribution-id E1AAQ0H4XT0NMH--paths /\*
+      - aws cloudfront create-invalidation --distribution-id E1AAQ0H4XT0NMH --paths /\*
