@@ -19,10 +19,13 @@ export default function AboutMe() {
       </h4>
       <p>
         As a civil engineer, I honed my problem-solving abilities and attention
-        to detail through various infrastructure projects. I gained valuable
-        experience in project management, structural design, and construction
-        supervision. These experiences have cultivated my ability to approach
-        challenges with a systematic and analytical mindset.
+        to detail through various infrastructure projects, while maintaining a
+        results-driven attitude. I gained valuable experience in project
+        management and construction supervision, always prioritizing the
+        achievement of tangible outcomes. These experiences have cultivated my
+        ability to approach challenges with a systematic and analytical mindset,
+        ensuring that my efforts are consistently focused on delivering
+        measurable results.
       </p>
       <br />
       <h4 className="text-base font-semibold md:text-lg">
@@ -33,13 +36,14 @@ export default function AboutMe() {
         exciting field to pursue new opportunities. I specialize in building
         robust and scalable web applications using Node.js and NestJS for
         backend development. I am well-versed in designing and managing
-        databases using MongoDB on MongoDB Atlas and MySQL, ensuring efficient
-        data storage and retrieval.
+        databases using MongoDB on MongoDB Atlas, MySQL and DynamoDB, ensuring
+        efficient data storage and retrieval.
         <br />
-        For the frontend, I leverage the power of Next.js and React.js to create
-        dynamic and responsive user interfaces. To enhance the user experience,
-        I utilize Tailwind CSS, Material UI, and CSS to create visually
-        appealing and intuitive designs.
+        For the frontend, I make use of the power of React.js and its ecosystem
+        including meta framework like Next.js to create dynamic and responsive
+        user interfaces. To enhance the user experience, I used the tools such
+        Tailwind CSS, Material UI, and CSS to create visually appealing and
+        intuitive designs.
       </p>
       <br />
       <h4 className="text-base font-semibold md:text-lg">AWS Proficiency</h4>

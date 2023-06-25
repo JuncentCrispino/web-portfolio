@@ -25,6 +25,10 @@ const demoProjects = [
     img: '/images/store.png',
   },
   {
+    href: 'https://course.centstudio.xyz/',
+    img: '/images/booking-course.png',
+  },
+  {
     href: 'https://upbook.centapps.online/',
     img: '/images/upbook.png',
   },
