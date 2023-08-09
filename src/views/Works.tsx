@@ -29,11 +29,11 @@ const demoProjects = [
     img: '/images/booking-course.png',
   },
   {
-    href: 'https://upbook.centapps.online/',
+    href: 'https://upbook.centstudio.xyz/',
     img: '/images/upbook.png',
   },
   {
-    href: 'https://invoice.centapps.online/',
+    href: 'https://invoicing.centstudio.xyz/',
     img: '/images/invoice.png',
   },
 ];
