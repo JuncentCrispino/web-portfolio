@@ -14,8 +14,11 @@ import {
   SiNestjs,
   SiTailwindcss,
   SiTypescript,
+  SiMongodb,
+  SiAmazondynamodb,
+  SiMysql,
 } from 'react-icons/si';
-import { TbBrandNextjs } from 'react-icons/tb';
+import { TbBrandNextjs, TbLicense } from 'react-icons/tb';
 
 const technologies = [
   {
@@ -41,6 +44,18 @@ const technologies = [
   {
     name: 'NestJS',
     icon: <SiNestjs className="text-red-500" />,
+  },
+  {
+    name: 'MongoDB',
+    icon: <SiMongodb className="text-green-600" />,
+  },
+  {
+    name: 'DynamodbDB',
+    icon: <SiAmazondynamodb className="text-blue-600" />,
+  },
+  {
+    name: 'MySQL',
+    icon: <SiMysql className="text-sky-600" />,
   },
   {
     name: 'ReactJS',
@@ -106,7 +121,10 @@ export default function Resume() {
         <p className="mt-2 text-left text-lg font-semibold">Experience</p>
       </section>
       <br />
-      <ul className="grid grid-cols-1 gap-x-5 md:grid-cols-2">
+      <ul
+        className="grid grid-cols-1 gap-x-5 space-y-5 md:grid-cols-2
+md:space-y-0"
+      >
         <li className="col-span-1">
           <p className="text-[17px] font-medium">Bluehive Business Solutions</p>
           <p className="text-[15.5px]">Full Stack Web Developer</p>
@@ -130,7 +148,7 @@ export default function Resume() {
         <p className="mt-2 text-left text-lg font-semibold">Education</p>
       </section>
       <br />
-      <ul className="grid grid-cols-1 gap-x-5 md:grid-cols-2">
+      <ul className="grid grid-cols-1 gap-x-5 space-y-5 md:grid-cols-2 md:space-y-0">
         <li className="col-span-1">
           <p className="text-[17px] font-medium">
             Northern Iloilo State University
@@ -147,6 +165,22 @@ export default function Resume() {
           <p className="text-[15px]">
             Full-Stack Web Development Course, Information Technology{' '}
             <b className="font-black">·</b> (2021 - 2021)
+          </p>
+        </li>
+      </ul>
+      <br />
+      <br className="block md:hidden" />
+      <section className="flex items-center gap-2">
+        <TbLicense className="h-9 w-9 rounded-lg bg-white/80 p-2 text-sky-600 shadow" />
+        <p className="mt-2 text-left text-lg font-semibold">Credentials</p>
+      </section>
+      <br />
+      <ul className="grid grid-cols-1">
+        <li className="col-span-1">
+          <p className="text-[17px] font-medium">Licensed Civil Engineer</p>
+          <p className="text-[15px]">
+            Philippine Professional Regulation Commission
+            <b className="font-black"> ·</b> (2018)
           </p>
         </li>
       </ul>
