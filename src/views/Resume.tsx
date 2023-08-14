@@ -50,7 +50,7 @@ const technologies = [
     icon: <SiMongodb className="text-green-600" />,
   },
   {
-    name: 'DynamodbDB',
+    name: 'DynamoDB',
     icon: <SiAmazondynamodb className="text-blue-600" />,
   },
   {
